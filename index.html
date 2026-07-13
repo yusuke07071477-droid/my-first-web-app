@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Pages Site</title>
+    <style>
+        body {
+            font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", Arial, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.7;
+            color: #222;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        section {
+            margin-bottom: 32px;
+            padding: 20px;
+            border-radius: 8px;
+            background: #f7f7f7;
+        }
+        .name-section h2 {
+            margin-top: 0;
+        }
+        .university-section {
+            color: blue;
+        }
+        .university-section h2 {
+            color: blue;
+        }
+        .research-section {
+            color: green;
+        }
+        .research-section h2 {
+            color: green;
+        }
+        .university-section img {
+            display: block;
+            max-width: 200px;
+            margin: 16px 0;
+        }
+        .university-section a {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to My GitHub Pages Site</h1>
-    <p>This is my first GitHub Pages deployment!</p>
+
+    <section class="name-section">
+        <h2>名前</h2>
+        <p>佐瀬裕亮</p>
+    </section>
+
+    <section class="university-section">
+        <h2>大学</h2>
+        <p>熊本大学 M2</p>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kumamoto_University_Logo.svg" alt="熊本大学ロゴ">
+        <p><a href="https://www.kumamoto-u.ac.jp/" target="_blank" rel="noopener noreferrer">熊本大学 公式ホームページ</a></p>
+    </section>
+
+    <section class="research-section">
+        <h2>研究</h2>
+        <p>グラフ理論研究中</p>
+    </section>
 </body>
 </html>
